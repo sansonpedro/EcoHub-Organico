@@ -1,46 +1,70 @@
 body {
   background-color: #5a009d;
 }
+.juntar-texto {
+  margin: 50px;
+  line-height: 20px;
+}
 .titulo-principal {
   display: flex;
+  line-height: 90px;
   justify-content: center;
   color: white;
-  font-size: 50px;
+  font-size: 60px;
   font-family: "Baloo 2", cursive;
 }
 .titulo-secundario {
   display: flex;
   justify-content: center;
   color: white;
-  font-size: 25px;
+  line-height: 45px;
+  font-size: 40px;
   font-family: "Baloo 2", cursive;
 }
+.botao {
+  display: flex;
+  justify-content: center;
+}
+.botao-tag {
+  border: 3px;
+  border-radius: 125px;
+  background-color: #8c38cc;
+  padding: 15px;
+  font-size: 30px;
+  color: white;
+}
+.botao-tag-secundaria {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+}
 .footer {
-  background-color: #2a004b;
-  margin-top: 650px;
   display: flex;
   justify-content: center;
   gap: 30px;
+
+  background-color: #2a004b;
+  border: #5a009d;
 }
 .menu {
-  font-size: 25px;
+  font-size: 35px;
   text-decoration: none;
   color: white;
 }
 .privacidade {
-  font-size: 25px;
+  font-size: 35px;
   text-decoration: none;
   color: white;
 }
 
 .sobre {
-  font-size: 25px;
+  font-size: 35px;
   text-decoration: none;
   color: white;
 }
 
 .termos {
-  font-size: 25px;
+  font-size: 35px;
   text-decoration: none;
   color: white;
 }
