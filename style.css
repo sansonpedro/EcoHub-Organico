@@ -1,0 +1,46 @@
+body {
+  background-color: #5a009d;
+}
+.titulo-principal {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 50px;
+  font-family: "Baloo 2", cursive;
+}
+.titulo-secundario {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 25px;
+  font-family: "Baloo 2", cursive;
+}
+.footer {
+  background-color: #2a004b;
+  margin-top: 650px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.menu {
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+}
+.privacidade {
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+}
+
+.sobre {
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+}
+
+.termos {
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+}
