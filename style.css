@@ -1,9 +1,41 @@
-body {
+body, html {
   background-color: #5a009d;
+  height: 100%;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Baloo 2", cursive;
+}
+a {
+  color: white;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size:30px;
+  font-family: "Baloo 2", cursive;
+}
+.content {
+  flex: 1;
+  padding: 20px;
 }
 .juntar-texto {
   margin: 50px;
   line-height: 20px;
+}
+.texto-a{
+  background-color:rgb(134, 11, 241);
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: "Baloo 2", cursive;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .titulo-principal {
   display: flex;
@@ -21,30 +53,47 @@ body {
   font-size: 40px;
   font-family: "Baloo 2", cursive;
 }
-.botao {
-  display: flex;
-  justify-content: center;
-}
-.botao-tag {
-  border: 3px;
-  border-radius: 125px;
+
+
+.center-button {
   background-color: #8c38cc;
-  padding: 15px;
-  font-size: 30px;
   color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-family: "Baloo 2", cursive;
+}
+.texto-botao {
+  background-color: #8c38cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 .botao-tag-secundaria {
   text-decoration: none;
-  font-size: 30px;
+  font-size: 0px;
   color: white;
 }
+
 .footer {
   display: flex;
   justify-content: center;
-  gap: 30px;
-
-  background-color: #2a004b;
-  border: #5a009d;
+  align-items: center;
+  background-color: #5a009d;
+  padding: 20px;
+  text-align: center;
+}
+footer a {
+  margin: 0 50px;
+  text-decoration: none;
+  color: white;
 }
 .menu {
   font-size: 35px;
@@ -56,15 +105,59 @@ body {
   text-decoration: none;
   color: white;
 }
-
 .sobre {
   font-size: 35px;
   text-decoration: none;
   color: white;
 }
-
 .termos {
   font-size: 35px;
   text-decoration: none;
   color: white;
+}
+.sobre-button {
+  background-color: #8c38cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.sobre-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #5a009d;
+}
+
+.login {
+  display: flex;
+  height: 100vh;
+  background-color: #5a009d;
+}
+.login-form {
+  background-color: #8c38cc;
+  padding: 20px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow:1px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.register-button {
+  background-color: #8c38cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.hover-effect {
+  transition: background-color 0.3s ease;
+  padding: 5px 5px;
 }
