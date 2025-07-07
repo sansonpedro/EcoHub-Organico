@@ -1,8 +1,18 @@
-body {
+body,
+html {
   font-family: "Baloo 2", cursive;
-  background-color: rgb(134, 11, 241);
-  width: auto;
-  height: auto;
+  font-size: 100%;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+.hero {
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/042/960/123/small_2x/ai-generated-gamepad-in-the-hands-of-a-gamer-on-a-technological-background-neon-lighting-video-games-online-with-friends-winnings-prizes-fun-entertainment-youth-culture-virtual-reality-photo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 main {
   display: flex;
@@ -75,10 +85,14 @@ a {
   color: white;
 }
 .footer {
-  background-color: #5a009d;
-  padding: 20px;
+  position: fixed;
   bottom: 0;
-  justify-content: center;
+  left: 0;
+  width: 100%;
+  background-color: #5a009d;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
 footer a {
   border: 3px solid black;
@@ -117,6 +131,7 @@ footer a {
   font-size: 18px;
   border-radius: 5px;
 }
+
 .sobre-page {
   display: flex;
   flex-direction: column;
@@ -124,6 +139,10 @@ footer a {
   justify-content: center;
   height: 100vh;
   background-color: #5a009d;
+}
+.fundoimg {
+  opacity: 95%;
+  background-image: 95%;
 }
 .login-text {
   border: 3px;
@@ -135,9 +154,10 @@ footer a {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  width: 400px;
-  background-color: blueviolet;
-  border-radius: 75px;
+  color: blueviolet;
+  background-color: rgb(38, 31, 44);
+  border-radius: 13px;
+  padding: 3px;
 }
 .login-align {
   flex-direction: column;
@@ -148,8 +168,8 @@ footer a {
 .register-button {
   background-color: #8c38cc;
   color: white;
-  border: none;
-  padding: 10px 20px;
-  font-size: 18px;
-  border-radius: 5px;
+  border: 3px;
+  padding: 5;
+  font-size: 15px;
+  border-radius: 13px;
 }
