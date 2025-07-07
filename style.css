@@ -1,31 +1,28 @@
-body, html {
-  background-color: #5a009d;
-  height: 100%;
-  margin: 0;
-}
 body {
-  display: flex;
-  flex-direction: column;
   font-family: "Baloo 2", cursive;
+  background-color: rgb(134, 11, 241);
+  width: auto;
+  height: auto;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 a {
   color: white;
   text-decoration: none;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-size:30px;
+  font-size: 30px;
   font-family: "Baloo 2", cursive;
 }
 .content {
   flex: 1;
   padding: 20px;
 }
-.juntar-texto {
-  margin: 50px;
-  line-height: 20px;
-}
-.texto-a{
-  background-color:rgb(134, 11, 241);
+.texto-a {
+  background-color: rgb(134, 11, 241);
   color: white;
   padding: 10px 20px;
   font-size: 18px;
@@ -54,18 +51,14 @@ a {
   font-family: "Baloo 2", cursive;
 }
 
-
 .center-button {
   background-color: #8c38cc;
   color: white;
-  border: none;
-  padding: 12px 30px;
+  border: 3px;
+  padding: 5px;
   font-size: 18px;
-  border-radius: 8px;
+  border-radius: 50px;
   cursor: pointer;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  transition: background-color 0.3s ease, transform 0.2s ease;
-  font-family: "Baloo 2", cursive;
 }
 .texto-botao {
   background-color: #8c38cc;
@@ -81,20 +74,21 @@ a {
   font-size: 0px;
   color: white;
 }
-
 .footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #5a009d;
   padding: 20px;
-  text-align: center;
+  bottom: 0;
+  justify-content: center;
 }
 footer a {
-  margin: 0 50px;
+  border: 3px solid black;
+  border-radius: 50px;
+  padding: 10px;
+  background-color: #8c38cc;
   text-decoration: none;
   color: white;
 }
+
 .menu {
   font-size: 35px;
   text-decoration: none;
@@ -131,21 +125,24 @@ footer a {
   height: 100vh;
   background-color: #5a009d;
 }
-
-.login {
-  display: flex;
-  height: 100vh;
-  background-color: #5a009d;
+.login-text {
+  border: 3px;
+  border-radius: 15px;
+  background-color: #8c38cc;
 }
 .login-form {
-  background-color: #8c38cc;
-  padding: 20px;
-  flex-direction: column;
   display: flex;
-  align-items: center;
-  margin: auto;
-  border-radius: 10px;
-  box-shadow:1px 4px 8px rgba(0, 0, 0, 0.2);
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 400px;
+  background-color: blueviolet;
+  border-radius: 75px;
+}
+.login-align {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .register-button {
@@ -155,9 +152,4 @@ footer a {
   padding: 10px 20px;
   font-size: 18px;
   border-radius: 5px;
-}
-
-.hover-effect {
-  transition: background-color 0.3s ease;
-  padding: 5px 5px;
 }
