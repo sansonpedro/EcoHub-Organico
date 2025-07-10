@@ -6,7 +6,7 @@ html {
   width: 100%;
   margin: 0;
   padding: 0;
-  background-color:rgba(36, 0, 60, 0.93);
+  background-color: rgba(36, 0, 60, 0.93);
   color: #f1f1f1;
 }
 
@@ -14,7 +14,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height:80vh;
+  height: 80vh;
 }
 
 a {
@@ -47,17 +47,17 @@ a {
   display: flex;
   justify-content: center;
   font-size: 3.5rem;
-  color:rgb(183, 136, 255);
+  color: rgb(183, 136, 255);
   line-height: 90px;
 }
 
 .titulo-secundario {
   display: flex;
   justify-content: center;
-  color:rgb(183, 136, 255);
+  color: rgb(183, 136, 255);
   font-size: 2rem;
   padding: 10px;
-  background-color:rgba(51, 17, 92, 0.49);
+  background-color: rgba(51, 17, 92, 0.49);
   border-radius: 10px;
   margin: 20px;
   text-align: center;
@@ -65,7 +65,7 @@ a {
 .titulo-secundario-home {
   display: flex;
   justify-content: center;
-  color:rgb(183, 136, 255);
+  color: rgb(183, 136, 255);
   font-size: 2rem;
   padding: 10px;
   border-radius: 10px;
@@ -81,7 +81,9 @@ a {
   margin: 20px;
 }
 
-.center-button, .texto-botao, .register-button {
+.center-button,
+.texto-botao,
+.register-button {
   background-color: #6c3ab7;
   color: white;
   border: none;
@@ -174,7 +176,8 @@ footer a {
 .btn-roxo:hover {
   background-color: #5732c9;
 }
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -204,7 +207,7 @@ body, html {
 
 .content {
   flex: 1;
-  background-color:rgba(45, 14, 69, 0.46);
+  background-color: rgba(45, 14, 69, 0.46);
   padding: 20px;
 }
 
@@ -233,7 +236,7 @@ body, html {
 }
 
 .main-content {
-  background-color:rgba(97, 29, 156, 0.72);
+  background-color: rgba(97, 29, 156, 0.72);
   padding: 20px;
   border-radius: 12px;
   text-align: center;
@@ -247,10 +250,31 @@ body, html {
 }
 
 .tab:hover {
-  background-color:rgba(57, 12, 75, 0.42);
+  background-color: rgba(57, 12, 75, 0.42);
   border-radius: 5px;
 }
 
 .tab a:hover {
   color: #5a009d;
+}
+.texto-a:hover {
+  background-color: #292929;
+  color: #d3aaff;
+  transition: background-color 0.3s, color 0.3s;
+}
+a:hover {
+  color: #d3aaff;
+  text-decoration: underline;
+}
+.menu:hover,
+.privacidade:hover,
+.sobre:hover,
+.termos:hover {
+  color: #b088ff;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.sidebar a:hover {
+  color: #c69aff;
+  text-decoration: underline;
 }
