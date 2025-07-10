@@ -1,175 +1,256 @@
 body,
 html {
   font-family: "Baloo 2", cursive;
-  font-size: 100%;
+  font-size: 16px;
   height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
-  font-size: 16px;
+  background-color:rgba(36, 0, 60, 0.93);
+  color: #f1f1f1;
 }
-.hero {
-  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/042/960/123/small_2x/ai-generated-gamepad-in-the-hands-of-a-gamer-on-a-technological-background-neon-lighting-video-games-online-with-friends-winnings-prizes-fun-entertainment-youth-culture-virtual-reality-photo.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 main {
   display: flex;
   justify-content: center;
   align-items: center;
+  height:80vh;
 }
+
 a {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 30px;
-  font-family: "Baloo 2", cursive;
+  padding: 10px 0;
+  font-size: 1.2rem;
 }
+
 .content {
   flex: 1;
   padding: 20px;
 }
+
 .texto-a {
-  background-color: rgb(134, 11, 241);
-  color: white;
+  background-color: #1a1a1a;
+  color: #f1f1f1;
   padding: 10px 20px;
   font-size: 18px;
-  text-decoration: none;
-  font-family: "Baloo 2", cursive;
+  border-radius: 8px;
 }
+
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .titulo-principal {
   display: flex;
-  line-height: 90px;
   justify-content: center;
-  color: white;
-  font-size: 60px;
-  font-family: "Baloo 2", cursive;
+  font-size: 3.5rem;
+  color:rgb(183, 136, 255);
+  line-height: 90px;
 }
+
 .titulo-secundario {
   display: flex;
   justify-content: center;
-  color: white;
-  line-height: 45px;
-  font-size: 40px;
-  font-family: "Baloo 2", cursive;
+  color:rgb(183, 136, 255);
+  font-size: 2rem;
+  padding: 10px;
+  background-color:rgba(51, 17, 92, 0.49);
+  border-radius: 10px;
+  margin: 20px;
+  text-align: center;
+}
+.titulo-secundario-home {
+  display: flex;
+  justify-content: center;
+  color:rgb(183, 136, 255);
+  font-size: 2rem;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px;
+  text-align: center;
 }
 
-.center-button {
-  background-color: #8c38cc;
+.titulo-menu {
+  display: flex;
+  justify-content: center;
   color: white;
-  border: 3px;
-  padding: 5px;
-  font-size: 18px;
-  border-radius: 50px;
-  cursor: pointer;
+  font-size: 2rem;
+  margin: 20px;
 }
-.texto-botao {
-  background-color: #8c38cc;
+
+.center-button, .texto-botao, .register-button {
+  background-color: #6c3ab7;
   color: white;
   border: none;
   padding: 10px 20px;
-  font-size: 18px;
-  border-radius: 5px;
+  font-size: 1rem;
+  border-radius: 10px;
   cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
 }
-.botao-tag-secundaria {
-  text-decoration: none;
-  font-size: 0px;
-  color: white;
+
+.center-button:hover,
+.texto-botao:hover,
+.register-button:hover {
+  background-color: #532d91;
 }
+
 .footer {
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #5a009d;
+  background-color: rgba(44, 17, 80, 0.6);
   color: white;
   padding: 20px;
   text-align: center;
 }
+
 footer a {
-  border: 3px solid black;
+  background-color: #532d91;
   border-radius: 50px;
-  padding: 10px;
-  background-color: #8c38cc;
-  text-decoration: none;
-  color: white;
-}
-
-.menu {
-  font-size: 35px;
-  text-decoration: none;
-  color: white;
-}
-.privacidade {
-  font-size: 35px;
-  text-decoration: none;
-  color: white;
-}
-.sobre {
-  font-size: 35px;
-  text-decoration: none;
-  color: white;
-}
-.termos {
-  font-size: 35px;
-  text-decoration: none;
-  color: white;
-}
-.sobre-button {
-  background-color: #8c38cc;
-  color: white;
-  border: none;
   padding: 10px 20px;
-  font-size: 18px;
-  border-radius: 5px;
+  color: white;
+  font-weight: bold;
 }
 
-.sobre-page {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background-color: #5a009d;
+.menu,
+.privacidade,
+.sobre,
+.termos {
+  font-size: 1.5rem;
+  color: white;
 }
-.fundoimg {
-  opacity: 95%;
-  background-image: 95%;
-}
+
 .login-text {
-  border: 3px;
   border-radius: 15px;
-  background-color: #8c38cc;
+  background-color: #6c3ab7;
+  padding: 10px;
+  margin-bottom: 20px;
 }
+
 .login-form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  color: blueviolet;
-  background-color: rgb(38, 31, 44);
+  align-items: center;
+  background-color: #1e1e1e;
   border-radius: 13px;
-  padding: 3px;
-}
-.login-align {
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  color: #ffffff;
 }
 
-.register-button {
-  background-color: #8c38cc;
+.login-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.login-align {
+  flex-direction: column;
+  text-align: center;
+}
+.btn-roxo {
+  display: inline-block;
+  background-color: #6c3ab7;
   color: white;
-  border: 3px;
-  padding: 5;
-  font-size: 15px;
-  border-radius: 13px;
+  padding: 12px 40px;
+  border: none;
+  border-radius: 12px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-roxo:hover {
+  background-color: #5732c9;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Baloo 2", cursive;
+  background-color: #0e0e0e;
+  color: white;
+}
+
+.container {
+  display: flex;
+  height: calc(100vh - 50px);
+}
+.sidebar {
+  width: 15%;
+  background-color: #3a0078;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+.sidebar h2,
+.sidebar a {
+  color: white;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.content {
+  flex: 1;
+  background-color:rgba(45, 14, 69, 0.46);
+  padding: 20px;
+}
+
+.topbar {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tab {
+  background-color: #7200c0;
+  padding: 8px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.tab.active {
+  background-color: #a741f7;
+}
+
+.main-content {
+  background-color:rgba(97, 29, 156, 0.72);
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+.tab a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 15px;
+  display: block;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.tab:hover {
+  background-color:rgba(57, 12, 75, 0.42);
+  border-radius: 5px;
+}
+
+.tab a:hover {
+  color: #5a009d;
 }
